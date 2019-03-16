@@ -1,7 +1,7 @@
 const Promise = require("bluebird");
 const MemberProxy = require("./models/member/member.proxy");
 
-async function test1() {
+async function test() {
     const members = await MemberProxy.findAllMembers();
     let N = 0;
     await Promise.mapSeries(members, member => {
@@ -10,4 +10,4 @@ async function test1() {
     console.log(`loop all ${N} members success`);
 }
 
-test1();
+test();
