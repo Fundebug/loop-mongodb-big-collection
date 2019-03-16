@@ -1,0 +1,21 @@
+[
+    {
+        "database": "test",
+        "collection": "member",
+        "count": 10000,
+        "content": {
+            "name": {
+                "type": "faker",
+                "method": "Name"
+            },
+            "city": {
+                "type": "faker",
+                "method": "City"
+            },
+            "country": {
+                "type": "faker",
+                "method": "Country"
+            }
+        }
+    }
+]
