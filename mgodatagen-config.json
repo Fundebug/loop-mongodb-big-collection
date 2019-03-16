@@ -5,19 +5,29 @@
         "count": 10000000,
         "content": {
             "name": {
-                "type": "string"
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
             },
             "city": {
-                "type": "string"
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
             },
             "country": {
-                "type": "string"
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
             },
             "company": {
-                "type": "string"
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
             },
             "email": {
-                "type": "string"
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 8
             }
         }
     }
