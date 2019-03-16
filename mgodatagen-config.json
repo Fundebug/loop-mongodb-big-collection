@@ -1,20 +1,23 @@
 [
     {
         "database": "test",
-        "collection": "member",
-        "count": 10000,
+        "collection": "members",
+        "count": 10000000,
         "content": {
             "name": {
-                "type": "faker",
-                "method": "Name"
+                "type": "string"
             },
             "city": {
-                "type": "faker",
-                "method": "City"
+                "type": "string"
             },
             "country": {
-                "type": "faker",
-                "method": "Country"
+                "type": "string"
+            },
+            "company": {
+                "type": "string"
+            },
+            "email": {
+                "type": "string"
             }
         }
     }
